@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="icon" href="ship.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="background-image:url(ship4.jpg);
+background-repeat: no-repeat;
+background-size:cover">
+<h1 style="padding-left: 500px;">Login to Sea Manager Cruise</h1>
+    <div class="navbar">
+        <button onclick="location.href='home.html'" class="buttons" type="button">
+            Home</button>
+        <button onclick="location.href='cruises.html'" class="buttons" type="button">
+            Cruises</button>
+            <div class="buttonright"><button onclick="location.href='about_us.html'" class="buttons" type="button">
+            About us</button>
+        </div>
+    </div>
+    
+
+<form action="/action_page.php" method="post">
+ 
+
+  <div class="container">
+    <label for="uname"><b>Username: </b></label><br>
+    <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+
+    <label for="psw"><b>Password: </b></label><br>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <button type="submit" class="buttonL">Login</button>
+    <button type="button" class="buttonL" onclick="location.href='home.html'" style="color: red;">Cancel</button>
+  </div>
+
+  
+</form>
+</body>
+</html>
